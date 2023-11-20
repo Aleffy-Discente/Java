@@ -1,0 +1,27 @@
+package manipulacaodedados;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author aleff
+ */
+public class ManipulacaodeDados {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Digite seu nome: ");
+        String nome = teclado.nextLine();
+        System.out.print("Digite sua nota: ");
+        float nota = teclado.nextFloat();
+        System.out.format("Seu nome e %s e a nota e %f ", nome, nota);
+
+        /*  String nome = teclado.nextLine();
+            float nota = teclado.nextFloat();
+            int idade = teclado.nextInt();
+    }
+    
+}

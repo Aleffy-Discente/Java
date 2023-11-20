@@ -1,0 +1,23 @@
+package operadoresaritimedicos;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author aleff
+ */
+public class OperadoresAritimedicos {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int n1 = teclado.nextInt();
+        int n2 = teclado.nextInt();
+        float m = (n1 + n2)/2;
+        System.out.println("A media e " + m
+        );
+    }
+    
+}

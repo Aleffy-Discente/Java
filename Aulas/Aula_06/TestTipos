@@ -1,0 +1,25 @@
+package testetipos;
+
+/**
+ *
+ * @author aleff
+ */
+public class TesteTipos {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+  //X   int idade = valor;   X
+        String valor = "30";
+  // Maneira certa de confertar tipos:
+        int idade = Integer.parseInt(valor);
+        System.out.println(idade);
+        
+        int idade = 30;
+  //X   String valor = "30";   X
+        String valor = Integer.toString(idade);
+        System.out.println(valor);
+    }
+    
+}
