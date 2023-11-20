@@ -1,0 +1,28 @@
+package tiposprimitivos;
+
+/**
+ *
+ * @author aleff
+ */
+public class TiposPrimitivos {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        float nota = 8.5f;
+        //print Normal
+        System.out.print("Sua nota = " + nota);
+        //print + pula linnha
+        System.out.println(", Sua nota = " + nota);
+        //print formatado
+        System.out.printf("Sua nota = %.2f", nota);
+        //O .2 é para colocar duas casas decimais
+        //---------------------------------------
+        String nome = "Aleffy";
+        //print com "format" em vez de "f"
+        System.out.format(", O nome %s e numero %.3f", nome, nota);
+
+    }
+
+}
